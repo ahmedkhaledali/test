@@ -1,0 +1,84 @@
+body {
+  background-color: #2d3436;
+  overflow-x: hidden;
+}
+.nav-pills .nav-link,
+.nav-pills .show > .nav-link {
+  color: white;
+  background-color: transparent;
+  font-size: 12px;
+}
+.nav-pills .nav-link.active {
+  background-color: transparent;
+}
+.nav-pills .nav-link:hover {
+  background-color: #202020;
+}
+
+.titre {
+  color: #ebc805;
+  height: 45px;
+  padding-left: 20px;
+  line-height: 45px;
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+.image {
+  width: 100%;
+}
+.titre1 {
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+  color: #ebc805;
+  font-weight: bold;
+  padding-top: 2%;
+}
+.text {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: rgb(211, 211, 211);
+}
+
+.logo {
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 40px;
+  background-size: contain;
+}
+ul {
+  color: white;
+}
+ul li {
+  color: white;
+}
+ol {
+  color: white;
+}
+ol li {
+  color: white;
+}
+ol {
+  counter-reset: item;
+}
+li {
+  display: block;
+}
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+.img {
+  width: 100px;
+  height: 100px;
+}
+footer {
+  background-color: #202020;
+  color: black;
+  text-align: center;
+  margin-top: 31%;
+}
+#v-pills-contact-tab {
+  margin-right: 50%;
+}
