@@ -24,7 +24,7 @@ body {
   margin: 0;
   font-weight: bold;
 }
-.image {
+.image1 {
   width: 100%;
 }
 .titre1 {
@@ -35,7 +35,7 @@ body {
   font-weight: bold;
   padding-top: 2%;
 }
-.text {
+.txt {
   box-sizing: border-box;
   font-size: 16px;
   color: rgb(211, 211, 211);
@@ -43,8 +43,8 @@ body {
 
 .logo {
   background-repeat: no-repeat;
-  width: 140px;
-  height: 40px;
+  width: 100px;
+  height: 46px;
   background-size: contain;
 }
 ul {
@@ -65,23 +65,80 @@ ol {
 li {
   display: block;
 }
-li:before {
-  content: counters(item, ".") " ";
-  counter-increment: item;
-}
+
 .img {
   width: 100px;
   height: 100px;
 }
+
+#v-pills-contact-tab {
+  margin-right: 50%;
+}
+.bbt {
+  height: 35px;
+  margin-top: 5%;
+  margin-right: 54px;
+  width: 80%;
+}
+.bbtt {
+  width: 150%;
+}
+.image {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.xx {
+  position: relative;
+}
+
+.xx:hover .text {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 92.5%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 78px;
+  text-align: center;
+  border-radius: 15px;
+}
+.modal-header {
+  width: 100%;
+}
+.modal-content {
+  max-width: 100%;
+}
+.modal-body {
+  padding: 0;
+}
+.img-modal {
+  width: 100%;
+}
+.s-titre {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.nav-tabs .nav-link {
+  color: white;
+  background-color: none;
+  font-size: 12px;
+}
+
 footer {
   background-color: #202020;
   color: black;
   text-align: center;
   margin-top: 31%;
-}
-#v-pills-contact-tab {
-  margin-right: 50%;
-}
-.btn {
-  height: 35px;
 }
