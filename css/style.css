@@ -7,6 +7,7 @@ body {
   color: white;
   background-color: transparent;
   font-size: 12px;
+  width: auto;
 }
 .nav-pills .nav-link.active {
   background-color: transparent;
@@ -72,17 +73,9 @@ li {
 }
 
 #v-pills-contact-tab {
-  margin-right: 50%;
+  margin-right: 42%;
 }
-.bbt {
-  height: 35px;
-  margin-top: 5%;
-  margin-right: 54px;
-  width: 80%;
-}
-.bbtt {
-  width: 150%;
-}
+
 .image {
   border-radius: 15px;
   max-width: 100%;
@@ -109,7 +102,7 @@ li {
   opacity: 0;
   color: white;
   font-size: 20px;
-  padding: 78px;
+  padding: 25%;
   text-align: center;
   border-radius: 15px;
 }
@@ -143,11 +136,42 @@ footer {
   margin-top: 31%;
 }
 
-@media (min-width: 1360px) {
+@media (max-width: 2220px) {
   .nav {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin-right: 18%;
+    margin-right: 20%;
+  }
+}
+.nav {
+  display: block;
+}
+.btn-outline-warning {
+  margin-top: 13px;
+}
+.nav1 {
+  display: flex;
+}
+
+.nav-tabs {
+  width: 100%;
+}
+
+@media (min-width: 2200px) {
+  .text {
+    width: 96%;
+    padding: 29.4%;
+  }
+}
+
+@media (max-width: 2199px) and (min-width: 2100px) {
+  .text {
+    width: 96%;
+    padding: 29.4%;
+  }
+}
+
+@media (max-width: 2100px) and (min-width: 2000px) {
+  .text {
+    width: 95%;
+    padding: 28.6%;
   }
 }
