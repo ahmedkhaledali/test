@@ -142,3 +142,12 @@ footer {
   text-align: center;
   margin-top: 31%;
 }
+
+@media (min-width: 1360px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 18%;
+  }
+}
